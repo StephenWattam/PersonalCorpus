@@ -1,0 +1,34 @@
+Personal Corpus Construction
+============================
+corpora more popular
+greater empirical focus needed
+hard to achieve with current corpus sampling methods
+Sample transactions [Leech]
+
+Motivation
+----------
+Corpus problems with covariates.  Use reweighting.
+language/sociology focus
+proportional sampling is possible [Varadi, Biber]
+demographic sampling is less possible
+production/consumption split is samplable [Leech?]
+time-based effects are clearer
+commentary on personal position in wider corpus possible (comparison)
+
+Method
+------
+collection
+processing
+weighting other corpora
+comparison
+
+
+Discussion
+----------
+ethics
+automated use for NLP (reduction in variance)
+existing life loggers
+ - MS [SenseCam/Cathal Gurrin, MyLifeBits]
+ - Deb Roy
+ - DARPA
+ - Dymaxion Chronofile

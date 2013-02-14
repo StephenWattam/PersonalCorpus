@@ -1,0 +1,97 @@
+Personal Corpus
+===============
+Construct a corpus balanced from the "bottom up", i.e. for an individual person's exposure or use of language, rather than for the population as whole.
+
+This relies on the assumptions that mass-scale language is less variant but massively oversampled in regular corpora (see notes!).
+
+Essentially, this is possible to do by building a corpus of one's everyday language use, recording:
+
+1. Digitally, using computer records, a keylogger, etc.
+2. Everything I say, see, and hear.  This is going to be more representative and general
+
+The mechanism for doing this will require the ability to categorise and digitise information (see [data sources](DataSources)).
+
+Of interest will be both the genre and basic function of the texts recorded as well as their specific linguistic content.  For the purposes of balancing, only the former is strictly necessary, but it would be interesting to acquire everything.
+
+Ultimately, intra- and inter-person variation may be identified in a useful enough way to gather new corpora.
+
+The resolution of a personal corpus may also be useful when considering if a corpus should represent language use, exposure, or both.
+
+Studies
+-------
+
+### Stratified Comparison
+An attempt to compare the various stratum weights observed in daily use to the reasoning provided in various corpus building manuals.  Also allows for 'rebalancing' of corpora by adjusting the stratum sizes according to various pertinent covariates.
+
+See the [page for this study](Studies/LanguageProportions) for more.
+
+
+### Synchronic Comparison
+An attempt to assess the typical distribution of text seen through time.
+
+See the [page for this study](Studies/SynchronicDistribution) for more.
+
+### Misc Ideas
+
+ * Vocabulary estimation
+ * 'learning rate' estimation for some features (learner corpus stuff)
+
+Data Collection
+---------------
+Procedures for capturing text, assigning pertinent categories, and processing the result are dependent upon a number of things.  They are guided theoretically by the aims of the study and the sampling policy, and restricted pragmatically by a large number of factors, from legal concerns to the amount of metadata it is possible to record without unduly interrupting a situation.
+
+### Sampling Policy
+The [sampling policy](DataCollection/SamplingPolicy) is explicitly stated in its very own document.  
+
+### Variables of Interest
+Certain linguistic [variables](DataCollection/Variables) are of particular interest due to their comparable nature re. other corpora.  Methods (outlined below) should be tailored to match these interesting parameters.
+
+### Data Sources and Methods
+Ideally, the study should sample all text used throughout the day.  This includes a wide variety of media, each of which will require a set method for its sampling and recording.
+
+These issues are discussed in full [here](DataCollection/DataSources).
+
+### Preliminary Collection Procedures
+Based on the above, a [series of procedures](DataCollection/PreliminaryProcedures) has been derived that define what, and in what manner, is to be captured.
+
+These will be revised into a more detailed plan based upon the outcome of [preliminary data gathering efforts](DataCollection/PreliminaryReport).
+
+
+Ethical Issues
+--------------
+Recording conversations and interactiond with people raises a number of ethical and legal questions.  These are addressed in [their own document](Ethics).
+
+Further Work
+------------
+Presumably the study could be expanded to other people through either extending the use of direct recording, or by issuing a questionnaire/interview of some kind.
+
+
+Related Work and Links
+----------------------
+
+### Digital Traces
+ * [Wikipedia overview](http://en.wikipedia.org/wiki/Digital_traces)
+
+###Life Logging
+
+ * [Machine Listening](http://books.google.co.uk/books?id=-zSVh5xYIKwC&printsec=frontcover#v=onepage&q&f=false)---Robert Malkin's PhD thesis.
+ * [Accessing Minimal-impact personal audio archives](http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1709838&tag=1)---A paper on accessing audio data as a lifelog
+ * [Minimal-impact audio-based personal archives](Papers/p39-ellis.pdf)---A seemingly seminal paper covering audio lifelogging
+ * [Life Logging](http://en.wikipedia.org/wiki/Lifelog)---Logging one's life, for various reasons
+ * [DARPA LifeLog](http://en.wikipedia.org/wiki/LifeLog_(DARPA))---Cancelled in 2004 (also [this wired article](http://www.wired.com/techbiz/media/news/2003/05/58909?currentPage=all), [a copy of the darpa release](http://remixxworld.blogspot.co.uk/2009/11/flashback-darpas-lifelog-program.html))
+ * [An article on various random issues](http://www.kk.org/thetechnium/archives/2007/02/lifelogging_an.php)---Covers some ethical ramifications and many projects
+ * [TimeSnapper](http://timesnapper.com/)---Creates a video from repeated screenshots
+ * [MyLifeBits](http://en.wikipedia.org/wiki/MyLifeBits) (and [here](http://research.microsoft.com/en-us/projects/mylifebits/default.aspx), [proceedings](Papers/msr_memex_2005_awards_pubs.doc), [especially this](Papers/LeeE06-vad.pdf))---A Microsoft research project where someone records all data they encounter in a usable format
+ * [Dymaxion Chronofile](http://en.wikipedia.org/wiki/Dymaxion_Chronofile)---Buckminster-Fuller's attempt to record his life, in 15-minute segments
+ * [Rick Kirkham](http://en.wikipedia.org/wiki/Rick_Kirkham)---A news reporter who documented his life extensively (and had a documentary based on the footage)
+ * [Daytum](http://daytum.com/)---A website for collecting 'daily data'
+ 
+
+###Sousveillance
+ * [Sousveillance](http://en.wikipedia.org/wiki/Sousveillance)---the inverse of surveillance
+ * [A Day in the Digital Life: A Preliminary Sousveillance Study](http://papers.ssrn.com/sol3/papers.cfm?abstract_id=1923629)---A study using constant recording, carried out in the UK.  P6 discusses their methods (including loggers, digital cameras, phones).
+ * [SenseCam](http://research.microsoft.com/en-us/um/cambridge/projects/sensecam/)---A camera that records everything throughout the day
+ * [Steve Mann](http://en.wikipedia.org/wiki/Steve_Mann)---who wears 'EyeTap', a constantly-recording set of glasses.
+ * [The Visible Man](http://www.wired.com/techbiz/people/magazine/15-06/ps_transparency/)---Hasan Elahi, who lives entirely transparently to prove to the FBI that he is not a threat (unlike his namesake)
+ * [CARPE2004](http://research.microsoft.com/en-us/um/siliconvalley/events/carpe2004/default.htm)---A workshop on continuous personal surveillance
+ * [Dr Cathal Gurrin](http://www.computing.dcu.ie/~cgurrin/CathalGurrin/Summary.html)---Has worn a SenseCam for the past 5 years

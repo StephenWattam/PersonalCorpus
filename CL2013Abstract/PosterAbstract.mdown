@@ -1,0 +1,25 @@
+Improving Representativeness using Personal Corpora
+===================================================
+
+Conventional methods of sampling have traditionally focused on language as a theoretical entity.  This has been the source of many pragmatic concerns, most notably issues of accurately determining the limits of the population about which we may generalise.  Much effort has been placed in defining these parameters, [Biber, Atkins et al, Varadi].  
+
+By changing the main sampling unit away from abstract language (and onto people, or `lifestyles'), many of the issues encountered when attempting to establish the representativeness and validity of results from corpus studies become explicit, and may therefore be more closely aligned with the aims of corpus studies.  The simplest form such samples may take is that of a personal corpus---a record of all language used during a given period.
+
+This method has been touched on in many fields.  Life-logging efforts such as Microsoft's MyLifeBits [] and SenseCam [] focus on the ability to catalogue and recall information for personal use.  With greater focus on linguistics, many efforts have been made to inspect language acquisition processes through the use of learner corpora, most notably Roy's study recording his own child's entire linguistic history [].  In addition, transaction-based and proportional sampling have been advocated by Leech [] and Varadi [] in their comments on the nature of corpus representativeness.
+
+This poster will examine the utility of demographically-oriented samples in the following problems:
+
+ 1. Sampling ephemera and short text usage (such as greetings, posters, flyers etc);
+ 2. Establishing typical language proportions in order to improve the quality of conventional corpora;
+ 3. Improving the representativeness of findings through resampling and augmentation;
+ 4. Assessing the distribution of ages observed in 'cross sectional' samples;
+ 5. Determining the differences between language production and consumption, and the selection bias existing in current corpora.
+
+It will describe a study to collect and analyse a personal corpus, seen as a single point sample of the above demographically-oriented corpus building method, and will cover a corpus sampling method involving the following stages:
+
+ 1. Construction of a taxonomy for description of language types and comparison to existing corpora;
+ 2. Development of a sampling method designed to capture even small utterances;
+ 3. Compilation and storage of multi-modal data with temporal information;
+ 4. Comparison to conventional corpora, and augmentation/weighting based on relative proportions.
+
+In addition to this, there will be a discussion regarding the ethics of sampling so heavily from a single subject, and the possibilities opened up by acquiring samples from multiple people.

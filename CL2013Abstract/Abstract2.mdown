@@ -1,0 +1,43 @@
+Sampling Individual Language Use
+================================
+The rise of corpus methods leant an explicitly empirical focus to the field of linguistics, moving it from its abstract explanatory theories into one of observations made upon a sample.  Rightly, there has been much effort expended in the refinement and examination of these samples: what they cover, omit, and ultimately mean.  
+From their initial base in the Brown corpus, sampling efforts have proceeded largely in parallel to statistical and sociological concerns governing large samples.  Whilst it is true that pragmatic concerns damage the quality of samples, much of value has been determined through examination of corpus data.
+
+In this paper I will argue for an alternative model of corpus construction, one that re-evaluates the purpose of sampling language in order to more readily expose different research questions to reasoned analysis.
+
+Sampling Paradigms
+------------------
+The problem of what---and how---to sample has conventionally been addressed from the point of view of sampling language as an entity of itself.  This has the notable advantage that we may generalise 'about language', subject to some assumptions, and plays to the traditional linguistic approach of examining some system of interaction that must be followed to ensure coherence when using language amongst other humans.  This approach, however, has led to neglect of some aspects of corpora:
+
+ 1. (sub-)population Definition---It is often unclear precisely how far one may generalise about language features.  This is especially true when creating sub-corpora, which are often smaller and influenced more by statistical issues.  We must trust corpus builders to cover language "fully", without any explicit statement of what that means;
+ 2. Production and Consumption---Though samples are deliberately chosen to represent popular texts, the abstract sampling of language leads us to see it as a passive, static object;
+ 3. Demographic Coverage---Due in part to item 1 in this list, it is often impossible to infer social and cultural findings with known bounds of transferability.
+
+
+If we, as [Leech] suggests, treat language as a social transaction, then the above become explicit as we sample texts in terms of their actors.  Furthermore, issues of representativeness and population coverage become pragmatic issues of sampling humans---something sociology has successfully accomplished on large scales for many years in studies such as the [BHPS].
+
+The simplest method of sampling social transactions, and the one I shall cover in most depth here, is the concept of a 'personal corpus'.  This would take the form of a census of all language use by a set of given subjects over a given period.  This may seem like a step backwards, and it does introduce a number of challanges, however, these are different to those solved above, offering opportunity for increased rigor in many circumstances.  One of the major advantages of this sampling method is its capacity to acquire language during use, rendering data about transaction accessible.
+
+
+Personal Corpus
+---------------
+Clearly, for a sample representative of 'overall language use', this sampling strategy encounters some serious pragmatic concerns.  We're left with two primary size concerns, the size of the set of people and the length of time each must be followed to cover variability in their language use; we must decide on how to sample people; and we must identify linguistic classifications appropriate to each transaction.  If the set of people sampled is large, then this is equivalent to proportionally sampling language using multiphase techniques (something Biber cautions is not necessary, which I disagree with, TODO).
+
+Even with a single person's corpus this relationship can be useful: weighting language categories from a conventional corpus would allow us to augment and compare language use on a large scale, and weighting a conventional corpus by demographic allows us to determine the degree of bias relative to a given person (alternatively, this may be read in the inverse: how typical that person is of the demographic selected).
+
+The distinction between production and consumption, quite easy to draw when not reliant on 'after-the-fact' sampling, would allow the subject's language use to be processed by NLP software with either increased precision---the homogeniety of a user's language productions would be far more precise due to the size of the sample (since typically only one or two samples will be taken from particular authors in conventional corpora), and typical reading level and text type could be integrated into models covering reception of a user's text.
+
+### Ethics
+The continued (and hence ideally covert) nature of recording a personal corpus raises ethical issues that are examined in depth in life-logging and sociological communities.  In order to use a personal corpus for research, one need not capture the text itself (though it would be preferrable, of course), merely the proportions of text *type*.  Though far from ideal, this option reduces the potential harm which may be caused by collection.
+
+One disadvantage to having such ethically sensitive data is that one's personal corpus, if verbatim, would not be available to others in the scientific community.  Verbatim recordings may be retained for personal use only in the UK, and there are similar laws in force across much of the US.
+
+
+Utility
+-------
+Thanks to the increasing consumption of digital text, construction of a personal corpus is becoming an increasingly simple task.  This progress is mirrored by the life-logging community, many of whom have been recording their entire lives (typically using audio-visual means) for years.  This community has launched many projects which explore the depth of information it is possible to retrieve from a personal log, including Microsoft's MyLifeBits, an attempt to construct a database of one's daily documents and effects, and DARPA's LifeLog project, designed to infer a narrative from multimodal input.
+
+Efforts to develop learner corpora have also touched on the life logging aspect, such as Roy's efforts to record the language acquisition process of his child using continuous video.  Many of the tools being developed for these uses apply well to the process of gathering data for a personal corpus, often in a far simpler manner than conventional efforts.
+
+
+

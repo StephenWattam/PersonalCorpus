@@ -1,0 +1,39 @@
+Representativeness in Demographic Terms
+=======================================
+The rise of corpus methods leant an explicitly empirical focus to the field of linguistics, moving it from its abstract explanatory theories into one of observations made upon a sample.  Rightly, there has been much effort expended in the refinement and examination of these samples: what they cover, omit, and ultimately mean.  
+From their initial base in the Brown corpus, sampling efforts have proceeded largely in parallel to statistical and sociological concerns governing large samples.  Whilst it is true that pragmatic concerns damage the quality of samples, much of value has been determined through examination of corpus data.
+
+In this paper I will argue for an alternative model of corpus construction, one that re-evaluates the purpose of sampling language in order to more readily expose different research questions to reasoned analysis.
+
+Conventional sampling procedures for general-purpose corpora have focused on the language itself.  From a traditional linguistic perspective this seems quite reasonable, as language is often treated as an abstract theoretical entity about which we may reason and derive findings, however, it is also necessarily heavily theory-laden.  As the power of corpus analyses develops (both through the complexity of linguists' inquiries and NLP techniques) the limitations of this approach loom menacingly:
+
+ 1. Insufficient Metadata---It is often difficult to infer the level of detail necessary for a clear conclusion from the metadata included with a corpus.  This is partially due to pragmatic concerns, and partially down to prudent selection of a corpus.  Comparison against large-scale, shared sociological samples such as the British Household Panel Survey leaves most corpora looking variable-poor.
+ 2. Poor Definition of Sampling Frame---It is often unclear precisely which texts fall into which categories (or, indeed, why), and where the bounds of a language are drawn.  NB: some corpora do an excellent job at this, but they are usually special purpose ones, such as the ANC
+ 3. Sampling Bias---Though generally governed by intractable pragmatic issues, the under- and over-representation of certain significan genres of text is rife and difficult to circumvent.
+ 4. (possibly delete)Signal-Noise Ratio---For many methods, we have reached the upper bound of capacity for precision, and many methods in NLP are now as accurate as humans [Cite POS stuff, p'raps, and sentence segmentation].
+
+These issues can largely be traced back to a neglect of external variables during sample design: this is little surprise, as it is nearly impossible to determine the variability of language use across a population as large as that which is [claimed to be] represented.
+
+Increasing Context
+------------------
+An alternative method is to be yielded by re-evaluating the original question "What is language?".  Rather than answering this in a traditional, theory-laden/top-down/analytical, manner we may say with little more than empirical examination that language is some arbitrarily defined method of communication between humans.  Such reductionism may seem valueless (indeed, it has led the philosophy of language into the turmoil in which it finds itself now), however, it exposes the core questions that surround language: as linguists we are generally concerned not with abitrary language variation, but with the social, economic, technological and temporal influences thereon---without interpretation in context, our linguistic findings are meaningless.
+
+This shift of focus is further enlightened by theories of language acquisition and neurlolinguistics based on a transactional model: our internal language model [I-Language] is necessarily a function of only a tiny fraction of others' E-Language.  The conventional view of sampling language production or consumption (in a weighted manner) oversimplifies this relationship, robbing us of the power to analyse it.
+
+Transposing the key questions of corpus building leads to a simpler sampling regieme, that of sampling (proportionally) according to language use and demographic.  This eliminates some key assumptions made in Brown's method, leaving representativeness issues that align neatly with sociological efforts involving large samples, the experiences of which may be used to inform best practice.
+
+Personal Corpora
+----------------
+The simplest manifestation of this shift would be a census of a person's linguistic output and input (notably, input and output are actually recordable using this method) over a given time period.  This fully-proportional method (or approximations thereto) has been remonstrated by Biber, who says "...it is not necessary to have a corpus to find out that 90% of texts in a language are linguistically similar (because they are all conversations)...", and later defended by Varadi and Leech.  I am inclined to agree with the latter two---Biber's argument is, although useful where the population cannot be sampled, far from an ideal.
+
+Building a personal corpus for sufficient people would solve many aspects of problematic sampling: demographic could be well-exposited due to the extra time taken with each entity; differentiation could be easily made between language production and consumption; language samples within a corpus could be full-length (or at least as full as the attention span of the subject) and the corpus would, given sufficient time, be perfectly balanced.
+
+At this point you're probably scraming at me: "A large enough statified demographic sample of people would likely *not* be willing to provide census samples!".  This is true, however, there are two possible counterpoints:
+
+ 1. Currently, the demographic coverage we have sampled is skewed by an unknown amount due to a failure to differentiate between production and consumption of text;
+ 2. Even a single point may be useful for some techniques (most notably NLP for personal interaction).
+
+With sufficient demographic information, it would be possible to augment a personal corpus from other sources in order to build a meaningfully large sample from which to do analyses.  The representativeness of a sample, and findings based upon it, would be rendered precise and reliable though explicit statement of demographic covariates.  The NLP community would be able to use a personal corpus, or summary statistics based thereon, to improve the quality of linguistic interactions with users, and theories of language that include acquisition and exposure would be granted the variables necessary for their evaluation [Lexical Priming]
+
+
+

@@ -1,0 +1,87 @@
+Notes
+=====
+
+Handy Quotes
+------------
+Biber, '93: "This notion of representativeness has been developed within sociological research, where researchers aim to determine descriptive statistics that characterise the entire population (e.g. average income, education etc.)."
+
+Biber, '93: "Language corpora require a different notion of representativeness, making proportional sampling inappropriate in this case.  A proportional language corpus would have to be demographically organised, because we have no a priori way to determine the relative proportions of different registers in a language"
+
+Varadi, 2000, counters: "First of all, one must voice serious misgivings about any attempt to divest such a key term of its well-established meaning, which has a clear interpretation to statisticians and the general public alike"
+
+1990 is where Biber he compares two halves of a text to determine sample unit.
+
+Gries '06: "corpus-based approaches often allow for empirically more versatile studies than studies based on isolated judgements"
+
+Gries 2006, section 2 (p192) mentions the fact that linguists barely ever relate their data formally to population groups, though he phrases it relative to problems of stating variance.
+
+EAGLES prelim. recommendations on typology: "As Biber recommends, progress will best be made by frequent cross-checking between internal and external criteris so that each established a framework of relevance for the other."
+
+Chomsky '91, p31: "complex and obscure sociopolitical historical and normative-teleological elements"
+
+Varadi 2000 about Sinclair 1991: "The use of language, Sinclair seems to argue, should be studied in the wider cultural context, which goes beyond the competence of the corpus linguist"
+
+Varadi 2000: on corpus proportions: "I am not aware of any public arguments offered in justification for the particular ratios used *between* the categories"
+
+Varadi 2000: "It should be noted that the demographical sample used by the BNC cannot be considered representative in the sense of the sample being proportional to the population"
+
+...and "Biber concedes that there is no a priori way to establish the relative proportions of the different genres obtaining in the population hence a representative sample would have to be demographic by definition" 
+
+Lexical Priming: “A corpus, whether general—like the BNC or the BoE—or specialise—such as the Guardian corpus used in this work—represents no-one's experience of the language”
+
+
+Spare Text
+----------
+
+
+
+        Literature
+        ----------
+        Personal corpora have been examined already by those looking to recall and apply information for personal use---Microsoft have been leaders in the life-logging community, applying their SenseCam technology [SenseCam] to build MyLifeBits [MSFT MyLifeBits], an attempt to digitise and record information as a verbatim memory.  Similar efforts were made in a DARPA-funded project known as LifeLog [DARPA LifeLog], the aims of which were to integrate multi-modal information into coherent narratives.  
+
+        In linguistics, learner corpora are a commonly used, if philosophically different, form of the personal corpus idea.  [ TODO: MORE? ]
+
+        Roy [Deb Roy, MIT] is currently working on a project that most closely approaches the aims of the project, recording his own child's entire linguistic development using semi-automatic methods.
+
+
+
+
+Though burdened with its own pragmatic issues, this method of sampling aligns much more closely with large sociological studies, the experiences of which may be used to drive sampling efforts.
+
+
+The key question of corpus building may be transposed in these terms, rather than "What is the nature of language?", we must ask "What language do people use?"
+
+
+
+
+
+
+As discussed in Biber's seminal 1993 work, along with others [Biber, Leech, Varadi, EAGLES], the most statistically defensible way to define a corpus is through careful specifiction of external criteria, generally using stratified sampling to avoid some of the more egregious practical issues.  
+
+
+These issues are, in part, due to the necessity to define our sampling frame in terms of the *language* itself, something we can at best iteratively improve upon [Biber].  As discussed in 
+
+
+
+
+---many pragmatic concerns embodied by the Brown sampling method have, however, become engrained in the culture of corpus linguistics.  In this paper, I argue for re-evaluation of these principles, and present a method for constructing corpora that is designed to be adaptable and useful for different research questions.  It is hoped that this method may 
+
+With the recent focus on corpus methods, linguistics itself is increasingly tending to value
+
+
+ [Leech] argues that we should be using language as a transaction, and I agree!
+
+
+The construction of a personal corpus is becoming an increasingly simple task thanks to the increasing proportion of language we use from digital sources---this can be seen as a convergeance of everyday life with 
+
+
+
+
+I argue, contrary to [Biber]'s seminal 1993 paper, that we should be achieving a representative sample not through capture of 
+
+When constructing large, representative samples of language there are two main questions:
+
+ 1. Which covariates are likely to be of interest to those using the sample?
+ 2. What sampling policy is going to select a uniform and sufficient selection of texts?
+
+

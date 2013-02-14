@@ -1,0 +1,55 @@
+Representativeness in Corpus Design
+===================================
+Conventional corpus building efforts have focused primarily on sampling language as an abstract, distinct and persistent entity.  Though the sampling methods first used in Brown have yielded many valuable results, and will doubtless continue to do so, this strategy has led to a number of pragmatic and scientific issues that continue to limit corpus linguistics.
+
+Many of these issues have been framed in terms of improved description of language variation, most notably by Biber [1993] who assesses the variability within various language categories in order to determine the extent to which we may, probabilistically speaking, extract further useful meaning by sampling further.  He goes on to conclude that we cannot know, a priori, the relative proportions of register usage within a language, and that we must go about sampling in an iterative manner, learning from our findings in order to improve further efforts.
+
+Biber's call for multi-phase sampling stems from a number of unknowns regarding language: we simply do not know what language is used on a daily basis, by whom, or for what purpose, with sufficient resolution to construct a demographically- and linguistically-balanced sample of language use with any certainty.  Some of this uncertainty is in part down to the pragmatic decision to sample primarily in terms of language, making attempts to balance demographics by using proxy variables such as relative popularity of a text, formality and other socio-cultural external descriptives.  A prime example of this confusion is the selection of language according to production or consumption, something only vaguely addressed by many corpora yet particularly important to the findings of many studies.
+
+Since corpus studies are necessarily concerned with the social demographics underlying language (either directly or by assumption), there is a need to improve the quality of social and demographic information in corpora, and its relationship to real population distributions.
+
+One way to examine these contextual and demographic markers is to construct a personal corpus---a record of all language used by a single person.  This sample would represent a trade-off: accurately sampling text type proportions whilst sacrificing power in describing a wider population.
+
+Sampling in this manner makes explicit many of the assumptions or 'unknowables' made during conventional corpus sampling, most notably:
+
+ 1. Temporal information, such as the age of a document when used;
+ 2. The relative properties of language produced and consumed, and frequency of re-read material;
+ 3. Detailed demographic information surrounding those using the language;
+ 4. Proportionality of language categories used;
+ 5. Representative sampling of ephemeral and short texts (greetings, flyers, advertisements).
+
+We may use the detailed contextual and demographic information to locate this subject (or subjects) within the distribution of a conventional corpus, allowing us to relate the language proportions observed to a wider context with a high degree of accuracy.  
+
+Reversing this process allows us to re-sample existing corpora using the identified personal proportions of text types, in order to produce a corpus that is balanced for a given demographic, yet large enough to train existing NLP systems or answer specific questions within a study.  This process eases the ethical concerns surrounding such invasive recording, as it may be possible to elicit language proportions through the use of questionnaires or irreversibly-hashed recording techniques (as proposed by Ellis and Lee [Minimal-impact audio-based personal archives, 2004]).
+
+The study we intend to present has the following aims:
+
+ 1. To develope a process of recording, digitising and coding multi-modal linguistic data in-the-field;
+ 2. To Identify proportions of language used *for a single demographic*, and compare these to existing corpora for an initial indictation of possible improvements;
+ 3. To develop methods for resampling corpora to align them in terms of a personal corpus, including relation of existing corpus genres to those commonly seen;
+ 4. To develop a methodology that may be used to reweight corpora with less intrusion, through digital methods (such as logging) or conventional social science samples.
+
+It is hoped we will be able to work towards an answer to some of the more persistent questions of corpus design: sample size, variability in real-world contexts, and stratum proportions, and, in so doing, assist those attempting to infer information from existing corpus resources by augmenting their meta-data.
+
+
+
+<hr/>
+<center>below this is basically unstructured, should I write "we will present: x, y, z"? </center>
+
+
+
+In order to compare to general purpose corpora, any sampling efforts must encompass all modes of communication throughout everyday usage.  This will provide a single point that may then be contextualised using demographic information within a larger corpus.
+
+As our use of language increasingly turns to digital modes, the process of data acquisition for personal corpora eases.  Indeed, restricting the population of our corpus to language used online, for example, the process of building and using a personal corpus becomes increasingly trivial, and starts to overlap with adjustments made in current search or mobile text input systems.
+
+[WRITE MORE about 'we will cover':
+ - the process of selecting categories
+ - the process of sampling
+ - the reweighting methods used
+ - what this may tell us about corpus representativeness
+]
+
+
+[ MENTION:
+ - sociology uses large shared samples too, and has solved many issues re. sampling lots of people
+]

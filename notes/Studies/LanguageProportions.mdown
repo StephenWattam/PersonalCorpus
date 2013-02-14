@@ -1,0 +1,25 @@
+Language Proportions
+====================
+
+The relative weights of various strata within the personal corpus may be compared to that of many large corpora.  This would cover the basic text types, as well as more intricate demographic distinctions in order to better compare things: is my usage representative of the corpus' selection for my demographic?
+
+Using Biber's calculations of corpus size, (and, if we have the original text, estimates of saturation), it should be possible to estimate a minimum corpus size to cover all the strata identified.
+
+This will necessitate careful selection of categories ahead of time to ensure they line up with an existing, popular, reference corpus, or are similar enough that they can be made to align with one (perhaps the BNC or LOB).
+
+Research Questions
+------------------
+
+1. To what extent is proportional sampling of language comparable to corpus strata, controlling for demographic
+2. How large would a balanced corpus have to be, assuming linguistic variation between people equal to that of existing corpora?
+3. How large would a personal corpus have to be?
+4. How large would a source corpus have to be in order for it to be reweighted in terms of personal weightings?
+
+Challenges
+----------
+
+1. Only one person, so unknown person-person linguistic variation.  Could be estimated using a corpus. (external validity issue)
+2. Unknown population of my language use.  Could be estimated using measures of saturation (internal validity issue)
+3. Sample size calculations used in Biber's work are based on normality.
+4. It's impossible to state a sample size without presuming things about analysis.
+
