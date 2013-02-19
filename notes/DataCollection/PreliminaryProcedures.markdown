@@ -10,6 +10,8 @@ It is based on the following documents:
 
 See [the report on preliminary tests](PreliminaryReport) for the outcomes and progress.
 
+<span style="color: red;">This method has been superseded by: [this document](PreliminaryProcedureAmendments), which includes amendments from the preliminary report.</span>
+
 Aims
 ----
 The intent of the preliminary study is to assess:
