@@ -38,96 +38,40 @@
 
 
 % -----------------------------------------------------------------------------------------
-\section{Corpus Building}
-\subsection*{Corpus Aims}
-\frame{\frametitle{Corpus Building}
-
-
-    \begin{block}{Why build corpora?}
-    Represent language use for a given population in a usable manner 
-    \end{block}
-
-
-    \begin{itemize}
-        \item What is `balanced' or `representative' for one study will not be for another
-        \item Only a very large sample will be sufficient for studying rare features
-        \item Study-specific resampling and annotation procedures are unknown at the time of sample design
-    \end{itemize}
-
-\note{
-Corpora are built as proxies for the population, so we can generalise about it.
-
-It's necessary to demark our population carefully, and sample wisely to get representativeness
-
-General purpose corpora are hard to create because they must be so thorough in this regard
-}
-}
-
-
-\frame{\frametitle{Balance/Representativeness}
-
-        % Representativeness is, simply:
-        Maximising the extent to which a sample resembles the population
-
-        % For a given question 
-        % For a given population (needs defining)
-
-
-        \begin{itemize}
-            \item \textbf{Balance/Proportionality}---The ability of each sample to relate to its real-world counterpart
-                % As seen in some given dimension
-                    
-            \item \textbf{Size}---The ability to adequately represent sub-populations fully for subsampling and specific inquiry
-                % i.e. is there enough data on a given subtype of language?
-        \end{itemize}
-
-        Language is so complex that, to satisfy these for a given research question, we require a very large sampe size
-
-\note{}
-}
-
+% \frame{\frametitle{Balance/Representativeness}
+% 
+%         % Representativeness is, simply:
+%         Maximising the extent to which a sample resembles the population
+% 
+%         % For a given question 
+%         % For a given population (needs defining)
+% 
+% 
+%         \begin{itemize}
+%             \item \textbf{Balance/Proportionality}---The ability of each sample to relate to its real-world counterpart
+%                 % As seen in some given dimension
+%                     
+%             \item \textbf{Size}---The ability to adequately represent sub-populations fully for subsampling and specific inquiry
+%                 % i.e. is there enough data on a given subtype of language?
+%         \end{itemize}
+% 
+%         Language is so complex that, to satisfy these for a given research question, we require a very large sampe size
+% 
+% \note{}
+% }
+% 
 
 \section{Sampling Design}
-\subsection{Types of Sample}
-\frame{\frametitle{Types of Sample}
-    
-    \begin{itemize}
-        \item \textbf{Census}---Sample everything
-        \item \textbf{Simple Random}---Each member of the population has an equal chance of selection
-            % Requires either listing or seeing every member of the population though
-        \item \textbf{Stratified}---Control for some important variables, randomly sample within these controls
-            \begin{itemize}
-                \item \textbf{Proportional}---Stratify for convenience to approach SRS
-                \item \textbf{Disproportional}---Deliberately over-represent interesting or difficult-to-sample items
-                \item \textbf{Multi-frame}---Resample the same population using different strata for multi-purpose balance
-            \end{itemize}
-        \item \textbf{Cluster/Multi-phase}---Use information from one sample to apply weights for another
-    \end{itemize}
-
-\note{}
-}
-
-\frame{\frametitle{Population Definition}
-
-
-
-
-    \noimage{}
-
-% TODO: show a diagram of "look at language use, find lists, cross-reference proportions, sample."
-%       [sampling by proxy variables]
-\note{}
-}
-
 
 
 
 \subsection{Conventional Sampling}
-\frame{\frametitle{Sampling Design}
-Views language as a persistent, static entity
+\frame{\frametitle{Conventional Corpus Design}
+    \begin{itemize} 
+        \item Views language as a persistent, static entity
     % i.e. books themselves, rather than the act of reading
 
-Strata selected along external variables primarily about texts (genre, medium, etc)
+\item Stratified along genre, medium, etc.
     % This differs from social science samples, who usually use variation across
     % the social population
     % 
@@ -135,42 +79,30 @@ Strata selected along external variables primarily about texts (genre, medium, e
     %
     % It's not possible to sample consumption/production without having better information on these
 
-Samples largely based on available sub-population indexes such as bestseller lists or library loans
+\item Based on available indexes such as bestseller lists
     % i.e. bestseller lists, etc
 
-Contents tightly coupled to expert opinion on coverage, proportions, and importance
+\item Tightly coupled to expert opinion on text importance
     % Which lists to use, etc, is chosen by committee
     % these have direct influence on content (selecting more books, for example)
 
-
+\end{itemize}
 
 \note{
     BNC: "Texts were chosen for inclusion according to three selection features: domain (subject field), time (within certain dates) and medium (book, periodical, etc.)."
 }
 }
 
-\frame{\frametitle{Conventional Sampling}
-    
-    \noimage{}
-
-% TODO: show a diagram of "look at language use, find lists, cross-reference proportions, sample."
-%       [sampling by proxy variables]
-\note{}
-}
-
-
 
 \frame{\frametitle{Difficulties}
     \begin{itemize}
-        \item Many variables of interest don't have associated indexes
+        \item Many variables don't have indexes
             % (i.e. production vs consumption)
-        \item Certain subgroups are difficult to sample for ethical or legal reasons
+        \item Ethical or legal concerns limit some types of data
             % i.e. speech vs writing proportions
-        \item There is often disagreement between the categories used by builders and users of a corpus
-            % and subsampling may not fix this
-        \item Variables are selected according to `proxy variables', due to lack of auxiliary data
+        \item Selection using `proxy variables', due to lack of auxiliary data
             % and these have interactions with other variables of interest, i.e. p[in index list] correlates with some social/linguistic property
-        \item Many variables are controlled for before empirical distributions are known
+        \item True empirical distribution of many variables is unknown
             % leading to unrepresentative choices for stratum size
             % such as time authored/read vs "was made in this year"
     \end{itemize}
@@ -193,25 +125,27 @@ Contents tightly coupled to expert opinion on coverage, proportions, and importa
 % NOTE: another approach here would be to send out questionnaires in order to assess
 %       the social validity of corpus results, i.e. to check the indexes.
 
-\subsection*{Demographic Sampling}
+\subsection{Demographic Sampling}
 \frame{\frametitle{Demographic Sampling}
-Views language use as a transitive event
+    \begin{itemize}
+    
+        \item Views language use as a transitive event
 % a language transaction, a la Leech
 
-Strata are selected along demographic variables
+\item Stratified along demographic variables
 % as in the BNC's demographic speech sample
 % as with virtually all other social science samples
 
-Greater empirical basis---Expert opinion needed only for population definition
+\item Expert opinion only needed to select demographics
 % though sample size is still a hot topic and always will be
 % population is now "all users of x language",
 % the users can be determined through other surveys
 
-Opportunities for census of language genres, for a given population
+\item Opportunities for census of language genres
 % Constant recording can record everything, for once
 % Personal corpus stuff.
 
-
+\end{itemize}
     % \begin{itemize}
     %     \item 
 
@@ -229,19 +163,15 @@ Opportunities for census of language genres, for a given population
 \frame{\frametitle{Advantages}
     \begin{itemize}
         \item Social demographics are well documented
-        \item The corpus describes ``language use" and population explicitly
-            % so the bounds of generalisability are well known
-        \item Given the same annotation schemes, subsampling is more powerful
-            % more variables, i.e. not only author/title/genre (which may still be there),
-            % but also social ones and transitive ones
-        \item No central index is required for many sources of text
+        \item No central index is required 
             % The person is a central index
         \item Additional variables are exposed to study
             % production/consumption, time/context etc.
-        \item Sampling of previously unestablished linguistic categories is possible
+            % more variables, i.e. not only author/title/genre (which may still be there),
+            % but also social ones and transitive ones
+        \item Discovery of language types/uses possible
             % ephemera, TV, labels, billboards etc
-        \item Greater empirical basis
-            % What people really do
+
     \end{itemize}
 
 \note{}
@@ -254,13 +184,12 @@ Opportunities for census of language genres, for a given population
             % We have to leave the office more
             % technology makes this easier nowadays
             % This is also an issue for things like the BHPS
-        \item Acquiring sufficient data for a given demographic now becomes the `size problem'
+        \item Size issues now affect `how many people'
             % difficult even for simple data
             % dependent on the variability of people's everyday usage (a la biber)
-        \item Coding efforts are helped less by existing indexes/data sources
-            % Many things don't start of so well curated
-        \item Multi-modal source requires significant transcription
+        \item Multi-modal sources require transcription 
             % but this can be helped by using the sample as auxiliary data
+            % Many things don't start of so well curated
     \end{itemize}
 \note{}
 }
@@ -272,9 +201,11 @@ Opportunities for census of language genres, for a given population
 \subsection*{History}
 \frame{\frametitle{Life-Logging}
     \begin{itemize}
-        \item Continual verbatim recording/broadcasting of one's life
+        \item Continual verbatim recording/broadcasting of life
         \item Originally for entertainment (JenniCam, Justin.tv)
         \item Heavily reliant on portable technology, connectivity
+
+        % TODO: pics
     \end{itemize}
 \note{}
 }
@@ -283,15 +214,11 @@ Opportunities for census of language genres, for a given population
 \subsection*{Application to Corpus Design}
 \frame{\frametitle{Applications}
     \begin{itemize}
-        \item Steve Mann, SenseCam, DARPA LifeLog
-        \item Deb Roy
-        \item Personal Audio Recording/low impact memory augmentation
-        \item BNC's demographic sampling approaches
-        
-        \item Spawned 'verbatim memory' projects SenseCam, DARPA's LifeLog
-        \item Simple method: follow someone around and collect all language
-        \item Sampling is restricted to what can be done realtime only
-        \item Deb Roy
+        \item Memory augmentation: Steve Mann, SenseCam, Machine Listening
+        \item Information retrieval: DARPA LifeLog
+        \item Language acquisition: Deb Roy
+        \item Corpus Building: BNC's demographic speech section
+        \item Posterity/Narcissism: Dymaxion Chronofile, JenniCam
     \end{itemize}
 \note{
     BNC: "Recruits who agreed to take part in the project were asked to record all of their conversations over a two to seven day period."
@@ -302,18 +229,29 @@ Opportunities for census of language genres, for a given population
 
 
 \section{Method}
-% TODO: review sampling document
 \subsection*{Aims/RQs}
+
+
+\frame{\frametitle{}
+
+    \begin{center}
+    \sc \Large Preliminary Study 
+    \end{center}
+
+    % TODO: slide needs some work
+\note{}
+}
+
 \frame{\frametitle{Aims}
-Construct a personal corpus, to discover:
+Construct a personal corpus, to determine:
 
     \begin{itemize}
-        \item Proportions of language I, personally, use;
-        \item Types of language use that are missing entirely from corpora (go Chomsky!);
+        \item What proportions of language types I use
+        \item If any types of language are missing entirely from existing corpora
             % Yes, Chomsky was correct ;-)
-        \item Relative proportions of text and speech that may be loosely generalisable;
-        \item Practical methods for deployment in studies using other subjects;
-        \item Likely required sampling time.
+        \item Relative proportions of text and speech
+        \item Practical methods for deployment using other subjects
+        \item Time required to build a useful sample size
             %(based on variation seen, temporal cyclic stuff);
     \end{itemize}
 
@@ -321,15 +259,11 @@ Construct a personal corpus, to discover:
 \note{}
 }
 
-\frame{\frametitle{Sampling Process}
+\frame{\frametitle{Process}
     \begin{itemize}
-        \item Record everything I produce or consume, either:
-            \begin{itemize}
-                \item Verbatim, as a corpus, or
-                \item Sufficiently well annotated to allow re-composition from other sources
-            \end{itemize}
+        \item Record all language used (produced or received), in all formats.
         \item Compile daily lists of language types used
-        \item Construct an annotated, synchronic, personally-relevant corpus from a "long enough" sampling time
+        \item Transcribe and covert logs into a usable corpus.
             % What constitutes long enough?
     \end{itemize}
 \note{}
@@ -338,20 +272,26 @@ Construct a personal corpus, to discover:
 
 
 \section{Data Collection}
+\subsection*{Methods}
 % What to record
 % 'later lookup'/notes
 % trade-off between seamlessness and comprehensiveness
 \frame{\frametitle{Collection Strategy}
     \begin{itemize}
-        \item Diary-based, with automated procedures for any awkward sources
-        \item Free coding for genre, type, context etc.
-        \item Focus on identification, rather than verbatim recording
-        \item Periodic 'annotation so far' to avoid significant missing data
+        \item Focus on unobtrusive, recall-based logging
+
+        \item Daily journal of language use:
+            \begin{itemize}
+                \item Listings of language used
+                \item Subjective descriptions of which sections were read
+                \item Details of complex interactions (shopping, music)
+                \item Annotation of daily continuous logs
+            \end{itemize}
+
     \end{itemize}
 \note{}
 }
 
-\subsection*{Methods}
 % Methods (one slide each?)
 %  - technical
 %   - squid
@@ -360,23 +300,20 @@ Construct a personal corpus, to discover:
 %   - notebook
 \frame{\frametitle{Data Sources}
 
-Digital-origin
-    \begin{itemize}
-        \item Documents, presentations and other files
-        \item Website contents; emails
-        \item Web chat logs
-        \item CLI terminal usage; keyboard input
-    \end{itemize}
-
-Persistent
+Persistent sources may be retrieved easily and need not be recorded verbatim
     \begin{itemize}
         \item Books
         \item Music
-        \item Audio/video from recorded sources
+        \item Audio/video, recorded
         \item Handwritten notes
     \end{itemize}
-    
-Transitive
+
+\note{}
+}
+
+\frame{\frametitle{Data Sources 2}
+ 
+Ephemeral resources must be recorded verbatim, or are impractical to recall
     \begin{itemize}
         \item Speech
         \item Billboards; advertising; labelling
@@ -385,64 +322,128 @@ Transitive
         \item Talking to myself
     \end{itemize}
 
+
+
 \note{}
 }
 
-\frame{\frametitle{Recording Metadata}
-Most metadata is recorded in a notebook, that serves as a log of the day
+\frame{\frametitle{Data Sources 3}
 
-% picture of my notebooks
+Resources of digital origin are generally easier to capture verbatim
 
-This is then transcribed into a blog, along with other transitive data:
+    \begin{itemize}
+        \item Documents, presentations and other files
+        \item Website contents; emails
+        \item Web chat logs
+        \item CLI terminal usage; keyboard input
+    \end{itemize}
+
+\note{}
+}
+
+
+\frame{\frametitle{Journal}
+The journal is formed from a physical notebook:
+
+% TODO picture of my notebooks
+\begin{center}\includegraphics[width=3cm,height=2cm]{placeholder}\end{center}
+
+And an online log, which contains more detail:
 
     \begin{itemize}
         \item Music listened to
-        \item Details of complex activities (items bought at shops, etc)
-        \item Subjective estimates of proportions read (web pages, books, etc)
+        \item Details of complex activities I'm likely to forget
+            %(items bought at shops, etc)
+        \item Subjective estimates of proportions read from various sources
+            %(web pages, books, etc)
     \end{itemize}
 \note{}
 }
 
 
-\frame{\frametitle{Recording Audio}
+\frame{\frametitle{Audio Recording}
+
+    % TODO: pic
+\begin{center}\includegraphics[width=3cm,height=2cm]{placeholder}\end{center}
+    
     \begin{itemize}
-        \item Continuous recording using dictaphone
-        \item Use of markers, VAD for word count estimation
-        \item Metadata recording is difficult; requires post-hoc annotation based on markers
-        \item The law prevents external transcription without consent
+        \item Allows capture of small-scale speech events
+        \item Difficult to process post-hoc without index markers, but realtime annotation is harder
+        \item The law prevents external use without consent
     \end{itemize}
 \begin{center}\alert{Ethical issues abound!}\end{center}
 \note{}
 }
 
-\frame{\frametitle{Technical Recording}
+
+\frame{\frametitle{Video Recording}
+
+    % TODO: pic
+\begin{center}\includegraphics[width=3cm,height=2cm]{placeholder}\end{center}
+
     \begin{itemize}
-        \item SQUID for centralised stuff
-        \item A web service to upload and keep documents seen when out 'n' about
-        \item A flash key for those large ones
-        \item terminal-logging software for local machines
-        \item IRC bot with logs
+        \item Very detailed multi-media recording for awkward situations
+        \item Useful when driving for road signs, music, GPS instructions, etc.
+        \item Difficult to annotate without 100\% time overhead
     \end{itemize}
 \note{}
 }
 
-\frame{\frametitle{Other Concerns}
+\frame{\frametitle{Technical--- Web}
+\begin{center}\includegraphics[width=7cm,height=2cm]{squid}\end{center}
     \begin{itemize}
-        \item Cameraphones for billboards
-        \item Video recording for car use (when it's impossible to annotate)
-        \item 
-        \item 
+        \item SQUID Proxy logs all traffic from my devices
+        \item Heavy post-processing necessary:
+            \begin{itemize}
+                \item Removal of AJAX, automated, unread data
+                \item Filtering of tags, boilerplate
+                \item Removal of unread sections of text
+            \end{itemize}
+        \item A bot monitors web chat when I start speaking, and only logs when I am active
     \end{itemize}
 \note{}
 }
 
-\frame{\frametitle{Misc}
+\frame{\frametitle{Technical---Other Digital Resources}
+\begin{center}\includegraphics[width=3cm]{wik}\end{center}
+
     \begin{itemize}
-        \item How often does one read a document when writing it?
-        \item How deliberately must one read something like a brand for it to count?
-        \item How to record doing multiple things?
-        \item What of programming languages, music, numeric and symbolic information, maps, etc.?
+        \item The journal and file store are accessible via the web
+        \item Any files can simply be uploaded, or
+        \item A flash drive can be used for large files
     \end{itemize}
+\note{}
+}
+
+
+\frame{\frametitle{Technical---Input}
+\begin{center}\includegraphics[width=3cm,height=2cm]{placeholder}\end{center}
+    \begin{itemize}
+        \item Terminal-logging software can record all CLI use
+        \item Keyloggers can capture all input, but often lack context information
+        \item Email, web chat, other documents are all logged and timestamped anyway
+    \end{itemize}
+\note{}
+}
+
+
+
+
+\frame{\frametitle{Digitisation}
+
+\begin{columns}[t]
+    \column{.6\textwidth}
+
+        \begin{itemize}
+            \item Cameraphone for billboards and packages
+            \item Thanks to tumblr, no-one cares that I'm taking a photo of some cereal packets in public
+            \item Longer documents can usually be scanned
+        \end{itemize}
+
+    \column{.4\textwidth}
+        \begin{center}\includegraphics[width=4cm]{food-blogger}\end{center}
+\end{columns}
+
 \note{}
 }
 
@@ -454,20 +455,22 @@ This is then transcribed into a blog, along with other transitive data:
 % information processing, organisation, markup
 \frame{\frametitle{Operationalisation}
     \begin{itemize}
-        \item Digital documents require significant post-processing to remove unread content
-            % markup, or simply bits I don't read of web pages
-            % most terminal output is unread
-            % I'm not *always* reading web chat
-        \item Audio needs to be annotated for genre, particpant count, etc. or transcribed
-        \item Pictures require transcription
-        \item Notebook metadata needs tabulating (and, in many cases, completing)
-        \item Web logs need downloading, post-processing
-    \end{itemize}
-\note{}
-}
-\frame{\frametitle{Conversion and Transcription}
-    \begin{itemize}
-        \item 
+        \item Only `easily lost' data is transcribed during the study (daily)
+        \item Variable selection deliberately small to minimise interruptions
+
+
+        \item Audio, Video are most problematic
+
+        \item Data stored centrally for easy lookup
+
+        % \item Digital documents require significant post-processing to remove unread content
+        %     % markup, or simply bits I don't read of web pages
+        %     % most terminal output is unread
+        %     % I'm not *always* reading web chat
+        % \item Audio needs to be annotated for genre, particpant count, etc. or transcribed
+        % \item Pictures require transcription
+        % \item Notebook metadata needs tabulating (and, in many cases, completing)
+        % \item Web logs need downloading, post-processing
     \end{itemize}
 \note{}
 }
@@ -482,72 +485,88 @@ This is then transcribed into a blog, along with other transitive data:
 % subject-specific corpora
 \frame{\frametitle{Direct Use}
     \begin{itemize}
-        \item NLP models for 'custom' interaction
-        \item Tuning of corpora to specific demographics or people
+        \item NLP models for `custom' interaction with devices and services
+            % google's personal search, sat nav
+        \item Balancing of corpora to specific demographics or people
+        \item Contextualisation of utterances with peer groups, etc
+        \item Comparison to existing language resources
     \end{itemize}
 \note{}
 }
 
 \frame{\frametitle{Methods for auxiliary data}
     \begin{itemize}
-        \item Personal corpora can be used to resample other sources
-        \item Indicates the difference between proportional sampling and existing corpus composition
-        \item Basis for questionnaires/less intrusive methods to acquire similar data to guide other studies
+        \item Conventional corpora may be resampled to build a larger corpus
+        \item Inspecting similar demographics from existing corpora indicates the differences in bias between both methods
+        % TODO
     \end{itemize}
 \note{}
 }
-
-% proof-of-concept e corpus stuff 
-% \section{Preliminary Work}
-% \subsection{E-Corpus}
-% \subsection{Pilot Study}
 
 
 \section{Findings \& Discussion}
 \subsection*{Findings}
 % Check prelim report
-\frame{\frametitle{Findings}
-    \begin{itemize}
-        \item I read very disparate things
+\frame{\frametitle{Findings --- Linguistic}
+I read very eclectic things.
             % In one day, for example, I read articles on music theory, a guidebook for climbers, food cooking instructions, brand names on many items of clothing and food, instructions for how to do various things, GPS instructions and maps, and road signs.
             % This implies that a good representative sample will require a lot more text than first suspected
             % Low signal-noise ratio: That is, a corpus will have to grow rather large before it includes any whole books, let alone a cross-section of genres.
-        \item I rarely read \textsl{all} of \textsl{anything}
+\note{}
+}
+
+\frame{\frametitle{Findings --- Linguistic 2}
+        I rarely read \textsl{all} of \textsl{anything}
             % Correlates with design advice for the web, but I often read only one or two lines of comment
-        \item Text can sneak up on you
+\note{}
+}
+
+\frame{\frametitle{Findings --- Linguistic 3}
+        Text can sneak up on you
             % I find myself subconsciously absorbing text without really actively reading it. This covers things like TV subtitles and quick notes for myself, as well as things like advertising, calendars, branding, etc.
             % I have to train myself to notice language use
-        \item I read a very large number of very small texts
+\note{}
+}
+
+\frame{\frametitle{Findings --- Linguistic 4}
+        I read a very large number of very small texts
             % contrary to most corpora
-        \item Spoken language is *very* common and informal, compared to even the most informally-absorbed written texts
+\note{}
+}
+
+\frame{\frametitle{Findings --- Linguistic 5}
+        Spoken language is *very* common and informal, compared to even the most informally-absorbed written texts
             % expected, really.
-    \end{itemize}
+\note{}
+}
+
+\frame{\frametitle{Findings --- Linguistic 6}
+    The vast majority of text I read is digital, but the vast majority of text sources I read are not.
 \note{}
 }
 
 
-% \section{Scientific \& Ethical}
-\frame{\frametitle{Scientific Value}
+
+\frame{\frametitle{Findings --- Methodological}
     \begin{itemize}
-        \item Generalisability from one person to another should be established
-        \item A personal corpus could be used to investigate various language acquisition/priming theories
-        \item Possibly to model the relationship between a user and other resources --- ``how typical am I?"
-        \item Through questionnaires, one could locate subjects within an existing corpus, to provide targeted comparison
-        \item Possible methods for low-impact recording for special-purpose corpora
+        \item How often does one read a document when writing it?
+        \item How deliberately must one read something like a brand for it to count?
+        \item How to record doing multiple things?
+        \item What of programming languages, music, numeric and symbolic information, maps, etc.?
     \end{itemize}
 \note{}
 }
+
 
 \subsection*{Ethics}
 \frame{\frametitle{Ethics}
 Covert research is always ethically suspect, however:
 
     \begin{itemize}
-        \item Capture of 'small' language events is possible without (impractical) interruption
-            % such as saying hello on the street
-        \item Data being captured is not used for any socially-sensitive purposes
-        \item Little to no human listening ever occurs on the resultant data, so...
-        \item Automated obfuscation is possible
+        \item Data being captured is not sensitive
+        \item There is no other way to capture small spoken utterances
+        \item Little to no human listening ever occurs on the resultant data
+        \item Automated obfuscation is possible if only taking word counts/proportions
             % such as garbling the speech without affecting frequencies, allowing VAD to still work
         \item Data may be optionally deleted after (nightly) notation in the log 
             % unless sampling verbatim recordings, any data sampled may be deleted after its main points have been
@@ -564,7 +583,7 @@ Covert research is always ethically suspect, however:
 \section*{Summary}
 \frame{\frametitle{Summary}
     \begin{itemize}
-        \item One preliminary test complete
+        \item One preliminary test complete; iteration of methods progressing
         \item Sampling methods have been refined, but show promise
         \item Annotation should be continuous (nightly) in order to reduce bulk of transcription effort
         \item Though a single-person sample is useful, multiple people could augment data using questionnaires and data mining
@@ -580,14 +599,14 @@ Covert research is always ethically suspect, however:
 
 % Which variables are collected
 \frame{\frametitle{Collected Variables}
-    the variables that should be caught (or evoked) in the notebook/daily log
+    Variables for capture in daily log: 
     \begin{itemize}
         \item
     \end{itemize}
 \note{}
 }
 \frame{\frametitle{Annotated Variables}
-    all items listed for final annotation, i.e. the format of the final database
+    Variables for annotation in final corpus
     \begin{itemize}
         \item
     \end{itemize}
