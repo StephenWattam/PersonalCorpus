@@ -2,12 +2,16 @@
 \documentclass[xcolor=x11names,compress]{beamer}
 
 
-\usetheme[]{SmartSerif}
+\usetheme[nocurve]{SmartSerif}
 
 \usepackage{graphicx}
 \DeclareGraphicsExtensions{.pdf,.png,.jpg}
 \graphicspath{{./images/}}
 \usepackage{color}
+
+\newcommand{\noimage}{\includegraphics{placeholder}}
+
+
 % ---------------------------------------------------------------------------------------
 % Thanks to http://www.guidodiepen.nl/2009/07/creating-latex-beamer-handouts-with-notes/
  % \usepackage{handoutWithNotes}
@@ -27,46 +31,316 @@
 
 \frame{\tableofcontents}
 
+
+
+
 % -----------------------------------------------------------------------------------------
 \section{Sampling Language}
-\subsection{Conventional}
-\subsection{Ideal}
-\subsection{Problems and Alternatives}
 
-\section{Proportionality}
-\subsection{Selection of Variables}
-\subsection{Is Proportinality desirable?}
+\subsection{Corpus Aims}
+\frame{\frametitle{Corpus Building}
+    \begin{itemize}
+        \item General-purpose corpora are `reusable samples'
+
+        \item This generality makes constructing a good corpus difficult:
+
+            \begin{itemize}
+                \item What is `balanced' or `representative' for one study will not be for another
+                \item Only a very large sample will be sufficient for studying rare features
+                \item Study-specific resampling and annotation procedures are unknown at the time of sample design
+            \end{itemize}
+    \end{itemize}
+\note{}
+}
+
+
+\frame{\frametitle{Balance/Representativeness}
+    \begin{itemize}
+
+
+        % Representativeness is, simply:
+        \item The extent to which a sample resembles the population
+
+        % For a given question 
+        % For a given population (needs defining)
+            
+        % \item The relative propensity for certain values of a useful to be included in a sample
+
+        % \item As such, they vary in statistical suitability for answering various research questions
+        \item Requires:
+            \begin{itemize}
+                \item \textbf{Balance/Proportionality}---The ability of each sample to relate to its real-world counterpart
+                    % As seen in some given dimension
+                        
+                \item \textbf{Size}---The ability to adequately represent sub-populations fully for subsampling and specific inquiry
+                    % i.e. is there enough data on a given subtype of language?
+            \end{itemize}
+
+        \item Language is so complex that, to satisfy these for a given research question, requires a very large sampe size
+
+    \end{itemize}
+\note{}
+}
+
+
+\section{Sampling Design}
+\subsection{Conventional Sampling}
+\frame{\frametitle{Sampling Design}
+    \begin{itemize}
+        \item The design of conventional corpora centres around language as a persistent entity
+        \item Various variables are extracted and controlled for during sampling (i.e. genre, author, etc.)
+        \item For maximum statistical defensibility, these properties should be external
+        \item Some disagreement over these salient variables
+            % though this won't be my focus here
+    \end{itemize}
+\note{}
+}
+
+\frame{\frametitle{Conventional Sampling}
+    
+    \noimage{}
+
+% TODO: show a diagram of "look at language use, find lists, cross-reference proportions, sample."
+%       [sampling by proxy variables]
+\note{}
+}
+
+
+
+\frame{\frametitle{Difficulties}
+    \begin{itemize}
+        \item Many variables of interest don't have associated indexes 
+            % (i.e. production vs consumption)
+        \item Some values of these variables are difficult to sample for ethical or legal reasons
+            % i.e. speech vs writing proportions
+        \item There is often disagreement between the categories used by builders and users of a corpus
+            % and subsampling may not fix this
+        \item Variables are selected according to `proxy variables', due to lack of auxiliary data,
+            % and these have interactions with other variables of interest, i.e. p[in index list] correlates with some social/linguistic property
+        \item 
+    \end{itemize}
+
+    \note{}
+}
+
+
+\subsection{Literature}
+\frame{\frametitle{Literature \& Criticism}
+    \begin{itemize}
+        \item Biber
+        \item Varadi
+        \item Leech
+        \item
+    \end{itemize}
+\note{}
+}
+
+% NOTE: another approach here would be to send out questionnaires in order to assess
+%       the social validity of corpus results, i.e. to check the indexes.
+
+\subsection{Demographic Sampling}
+\frame{\frametitle{Demographic Sampling}
+    \begin{itemize}
+        \item Selecting different variables of interest re-orients many practical issues
+        % back to basics --- what is the aim of CL?
+        \item I've chosen to sample language as a social, transitive, event
+            % i.e. for a given group of people, what language do they use?
+        \item Sample proportions of language use 'in the wild'
+        \item With sufficient sample size, this is equivalent, however, pragmatic sampling issues differ greatly
+    \end{itemize}
+\note{}
+}
+
+
+\frame{\frametitle{Advantages}
+    \begin{itemize}
+        \item Social demographics are well documented in other samples
+        \item The corpus describes ``language use" and population explicitly
+        \item Given the same annotation schemes, subsampling is more powerful
+            % more variables, i.e. not only author/title/genre (which may still be there)
+        \item No central index is required for many sources of text
+        \item Some additional variables are exposed to study
+            % production/consumption, time/context etc
+        \item Sampling of previously unestablished linguistic categories 
+            % ephemera, labels, billboards etc
+    \end{itemize}
+
+\note{}
+}
+
+
+\frame{\frametitle{New Difficulties}
+    \begin{itemize}
+        \item Sampling text from many people is technically demanding, and thus expensive
+            % We have to leave the office more
+            % technology makes this easier nowadays
+        \item Acquiring sufficient data for a given demographic now becomes the challenge
+            % difficult even for simple data
+        \item Coding efforts are helped less by existing indexes/data sources
+        \item Multi-modal source requires significant transcription
+            % but this can be helped by using the sample as auxiliary data
+    \end{itemize}
+\note{}
+}
+
+
 
 
 \section{Life-Logging}
 \subsection{History}
+\frame{\frametitle{Life-Logging}
+    \begin{itemize}
+        \item Continual verbatim recording/broadcasting of one's life
+        \item Originally for entertainment only (JenniCam, Justin.tv)
+        \item Heavily reliant on video, portable technologies
+        \item Spawned 'verbatim memory' projects SenseCam, DARPA's LifeLog
+    \end{itemize}
+\note{}
+}
+
+
 \subsection{Application to Corpus Design}
 
-\section{Applying Life-logging}
+\frame{\frametitle{}
+    \begin{itemize}
+        \item Simple method: follow someone around and collect all language
+        \item Sampling is restricted to what can be done realtime only
+        \item Deb Roy
+    \end{itemize}
+\note{}
+}
+
+
+
+\section{Method}
+% TODO: review sampling document
 \subsection{Aims/RQs}
-\subsection{Data Collection}
-\subsection{Use}
-\subsection{Resampling and Augmentation} 
+\frame{\frametitle{Aims/Sampling Process}
+    \begin{itemize}
+        \item 
+    \end{itemize}
+\note{}
+}
 
 
-\section{Preliminary Work}
-\subsection{E-Corpus}
-\subsection{Pilot Study}
 
 
-\section{Scientific \& Ethical}
-\subsection{[Dis]Advantages}
+\section{Data Collection}
+% What to record
+% 'later lookup'/notes
+% trade-off between seamlessness and comprehensiveness
+\subsection{Policy}
+\frame{\frametitle{Collection Policy}
+    \begin{itemize}
+        \item 
+    \end{itemize}
+\note{}
+}
+
+\subsection{Methods}
+% Methods (one slide each?)
+%  - technical
+%   - squid
+%   - recording (a/v)
+%   - blog
+%   - notebook
+\frame{\frametitle{Methods}
+    \begin{itemize}
+        \item 
+    \end{itemize}
+\note{}
+}
+
+
+
+\subsection{Transcription}
+% How to convert and transcribe data from disparate sources
+% information processing, organisation, markup
+\frame{\frametitle{Operationalisation}
+    \begin{itemize}
+        \item 
+    \end{itemize}
+\note{}
+}
+\frame{\frametitle{Conversion and Transcription}
+    \begin{itemize}
+        \item 
+    \end{itemize}
+\note{}
+}
+
+
+\section{Use} 
+% Use as auxiliary data
+% Resampling
+% The idea of gathering more people's info
+% Digital-only corpora for web scraping and rabalancing
+% subject-specific corpora
+\frame{\frametitle{Direct Use}
+    \begin{itemize}
+        \item NLP models for 'custom' interaction
+        \item Tuning of corpora to specific demographics or people
+    \end{itemize}
+\note{}
+}
+
+\frame{\frametitle{Methods for auxiliary data}
+    \begin{itemize}
+        \item Personal corpora can be used to resample other sources
+        \item Indicates the difference between proportional sampling and existing corpus composition
+        \item Basis for questionnaires/less intrusive methods to acquire similar data to guide other studies
+    \end{itemize}
+\note{}
+}
+
+% proof-of-concept e corpus stuff 
+% \section{Preliminary Work}
+% \subsection{E-Corpus}
+% \subsection{Pilot Study}
+
+
+\section{Findings \& Discussion}
+\subsection{Findings}
+% Check prelim report
+\frame{\frametitle{Findings}
+    \begin{itemize}
+        \item 
+    \end{itemize}
+\note{}
+}
+
+
+% \section{Scientific \& Ethical}
+\frame{\frametitle{Scientific Value}
+    \begin{itemize}
+        \item Personal Corpus stuff.
+    \end{itemize}
+\note{}
+}
+
 \subsection{Ethics of Covert Methods}
+\frame{\frametitle{Ethics}
+    \begin{itemize}
+        \item 
+    \end{itemize}
+\note{}
+}
 
 
+% TODO: summary, auxiliary slides
 
-\section{Discussion}
-\subsection{Applications}
-\subsection{Practicality}
+\subsection{Summary}
+\frame{\frametitle{Summary}
+    \begin{itemize}
+        \item
+    \end{itemize}
+\note{}
+}
+
 
 % -----------------------------------------------------------------------------------------
 % 
-% \frame{\frametitle{}{
+% \frame{\frametitle{}
 % \begin{columns} 
 %     \begin{column}[c]{5cm} 
 %     \end{column} 
@@ -78,14 +352,14 @@
 % }
 %
 %
-% \frame{\frametitle{}{
-%     \begin{itemize}
-%         \item
-%     \end{itemize}
-% \note{}
-% }
+\frame{\frametitle{}
+    \begin{itemize}
+        \item
+    \end{itemize}
+\note{}
+}
 %
-% \frame{\frametitle{}{
+% \frame{\frametitle{}
 % \note{}
 % }
 % -----------------------------------------------------------------------------------------
