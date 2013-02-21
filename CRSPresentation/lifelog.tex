@@ -2,7 +2,7 @@
 \documentclass[xcolor=x11names,compress]{beamer}
 
 
-\usetheme[nocurve]{SmartSerif}
+\usetheme[num]{SmartSerif}
 
 \usepackage{graphicx}
 \DeclareGraphicsExtensions{.pdf,.png,.jpg}
@@ -114,16 +114,16 @@
 
 
 % TODO: the slide below 
-\subsection{Literature}
-\frame{\frametitle{Literature}
-    \begin{itemize}
-        \item Biber
-        \item Varadi
-        \item Leech
-        \item
-    \end{itemize}
-\note{}
-}
+% \subsection{Literature}
+% \frame{\frametitle{Literature}
+%     \begin{itemize}
+%         \item Biber
+%         \item Varadi
+%         \item Leech
+%         \item
+%     \end{itemize}
+% \note{}
+% }
 
 % NOTE: another approach here would be to send out questionnaires in order to assess
 %       the social validity of corpus results, i.e. to check the indexes.
@@ -233,7 +233,7 @@
         \item Memory augmentation: Steve Mann, SenseCam, Machine Listening
         \item Information retrieval: DARPA LifeLog
         \item Language acquisition: Deb Roy
-        \item Corpus Building: BNC's demographic speech section
+        \item Corpus Building: LLC, BNC (sort of)
         \item Posterity/Narcissism: Dymaxion Chronofile, JenniCam
     \end{itemize}
 \note{
@@ -245,9 +245,6 @@
 
 
 \section{Method}
-\subsection*{Aims/RQs}
-
-
 \frame{\frametitle{}
 
     \begin{center}
@@ -258,6 +255,7 @@
 \note{}
 }
 
+\subsection*{Aims/RQs}
 \frame{\frametitle{Aims}
 Construct a personal corpus, to determine:
 
@@ -316,7 +314,8 @@ Construct a personal corpus, to determine:
 %   - notebook
 \frame{\frametitle{Data Sources}
 
-Persistent sources may be retrieved easily and need not be recorded verbatim
+Persistent resources 
+%may be retrieved easily and need not be recorded verbatim
     \begin{itemize}
         \item Books
         \item Music
@@ -329,7 +328,8 @@ Persistent sources may be retrieved easily and need not be recorded verbatim
 
 \frame{\frametitle{Data Sources 2}
  
-Ephemeral resources must be recorded verbatim, or are impractical to recall
+Ephemeral resources
+%must be recorded verbatim, or are impractical to recall
     \begin{itemize}
         \item Speech
         \item Billboards; advertising; labelling
@@ -345,7 +345,8 @@ Ephemeral resources must be recorded verbatim, or are impractical to recall
 
 \frame{\frametitle{Data Sources 3}
 
-Resources of digital origin are generally easier to capture verbatim
+Resources of digital origin 
+%are generally easier to capture verbatim
 
     \begin{itemize}
         \item Documents, presentations and other files
@@ -378,14 +379,17 @@ And an online log, which contains more detail:
 
 \frame{\frametitle{Audio Recording}
 
-\begin{center}\includegraphics[width=3cm,height=2cm]{dictaphone}\end{center}
+\begin{center}\includegraphics[width=4cm]{dictaphone}\end{center}
     
     \begin{itemize}
         \item Allows capture of small-scale speech events
         \item Difficult to process post-hoc without index markers, but realtime annotation is harder
-        \item The law prevents external use without consent
+        \item The law prevents external access without consent
     \end{itemize}
-\begin{center}\alert{Ethical issues abound!}\end{center}
+
+    \pause
+
+ \begin{center}\alert{Ethical issues abound!}\end{center} 
 \note{}
 }
 
@@ -402,7 +406,7 @@ And an online log, which contains more detail:
 \note{}
 }
 
-\frame{\frametitle{Technical---Web}
+ \frame{\frametitle{Technical---Web}
 \begin{center}\includegraphics[width=7cm,height=2cm]{squid}\end{center}
     \begin{itemize}
         \item SQUID Proxy logs all traffic from my devices
