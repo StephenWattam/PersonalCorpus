@@ -1,0 +1,46 @@
+#!/usr/bin/env ruby
+
+require 'yaml'
+
+raise "No auth file given" if ARGV.length == 0
+
+usernames = YAML.load_file(ARGV[0])
+
+%w{INT HUP KILL ABRT}.each{|s|
+  trap(s) { raise SignalException.new(s) }
+}
+
+def out(msg, chanid=nil)
+  if chanid then
+    puts "#{chanid} #{msg}"
+  else
+    puts "#{msg}"
+  end
+end
+
+#while(true) do
+  chanid = nil
+  line = $stdin.readline.chomp.strip.split
+
+  # check input is vaguely valid
+  if line.length > 3
+    line = nil
+  elsif line.length == 3
+    chanid = line[0]
+    line = line[1..-1]
+  end
+ 
+  # check credentials
+  if line then
+    if usernames[line[0].to_s] == line[1].to_s then
+      out("OK", chanid)
+    elsif not usernames[line[0].to_s] then
+      out("ERR No such user", chanid)
+    else
+      out("ERR", chanid)
+    end
+  else
+    out("ERR", chanid)
+  end
+
+#end

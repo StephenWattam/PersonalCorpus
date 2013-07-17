@@ -1,0 +1,6 @@
+---
+  :logroot: '/home/extremetomato/working/git/PersonalCorpus/data/prelim3/term/'
+  :keylog: 'term_keys %s.log'
+  :timelog: 'term_time %s.log'
+  :flags: ''
+  # :flags: '-q'

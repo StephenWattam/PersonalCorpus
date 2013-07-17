@@ -54,7 +54,15 @@ These issues are discussed in full [here](DataCollection/DataSources).
 ### Preliminary Collection Procedures
 Based on the above, a [series of procedures](DataCollection/PreliminaryProcedures) has been derived that define what, and in what manner, is to be captured.
 
-These will be revised into a more detailed plan based upon the outcome of [preliminary data gathering efforts](DataCollection/PreliminaryReport).
+
+Collection Efforts
+------------------
+There have been two major attempts to gather data.  
+
+The former was a simple feasbility study into the data sources that should be acquired, which resulted in a number of changes to the planned method and is [reported here](DataCollection/PreliminaryReport).
+
+Following revisions of the method, [reported here](DataCollection/PreliminaryProcedureAmendments) an 18-day acquisition of data started.  This was more heavily noted and was intended as a small study into the validity of the methods for corpus building.  It is described in more detail in its own data logging section in `../data`.  This is currently being transcribed.
+
 
 
 Ethical Issues

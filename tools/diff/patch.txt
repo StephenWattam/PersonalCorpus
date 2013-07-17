@@ -1,0 +1,21 @@
+From 3aa5bb4c28f7cda3c0b0acb0a410d7fd4a8c02d6 Mon Sep 17 00:00:00 2001
+From: Steve Wattam <stephenwattam@gmail.com>
+Date: Tue, 09 Apr 2013 14:41:35 +0000
+Subject: minor edits to documentation
+
+---
+diff --git a/docs/User/concepts.md b/docs/User/concepts.md
+index 2b2f3bf..fdaf73b 100644
+--- a/docs/User/concepts.md
++++ b/docs/User/concepts.md
+@@ -61,5 +61,7 @@ The corpus includes:
+ 
+ 
+ ### File Formats
+-Each of the files within a corpus, with the exception of the metadata database, is a serialised ruby object, as defined in `/lib/shared/data_types.rb`.
++Each of the files within a corpus, with the exception of the metadata database, is a YAML-serialised ruby object, as defined in `/lib/shared/data_types.rb`.
++
++
+ 
+--
+cgit v0.9.0.3

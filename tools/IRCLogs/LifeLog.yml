@@ -1,0 +1,4 @@
+---
+# :gems:  # no gems required
+:logdir: '/home/extremetomato/working/git/PersonalCorpus/data/prelim3/irc/'
+:timeout: 600 # 10 mins attention span
