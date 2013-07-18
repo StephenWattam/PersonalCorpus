@@ -198,12 +198,25 @@ grout('gmdistraw', h=2,w=7)
 par(mar=c(0,0,0,0))
 
 # Plot of media
-plot(log(sort(genres.means_over_5$x, decreasing=T)), type='l',
+plot(log(sort(genres.mean$x, decreasing=T)), type='l',
      yaxt='n',
      xaxt='n',
      ann=F)
     
 groff();
+
+
+
+
+
+# =================================================================================================
+# BNC broadcast comparison 
+#
+
+words.bcast  = sum( fn[which(fn$medium %in% c('TV', 'radio', 'video')),]$computed_words )
+words.conv = sum( fn[which(fn$medium %in% c('speech')),]$computed_words )
+
+
 
 
 

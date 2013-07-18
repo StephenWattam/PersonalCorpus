@@ -611,7 +611,7 @@ And an online log, which contains more detail:
     \begin{itemize}
         \item 15 days with full availabilty
             \vspace{5pt}
-        \item $8,619$ linguistic events, $1.4$m words (est.)
+        \item $8,619$ linguistic events, $1.4$m words (est.), 3.4GB
         % T ODO
     \end{itemize}
 \note{}
@@ -1282,6 +1282,35 @@ And an online log, which contains more detail:
 \section{Methods/Discussion}
 % -----------------------------------------------------------------------------
 \subsection*{Findings}
+\frame{\frametitle{Observations}
+    \begin{itemize}
+        \item The spoken/written balance is remarkably even due to broadcast media
+            \vspace{5pt}
+        \item A million words doesn't `cover much time'
+            \vspace{5pt}
+        \item Broadcast media dominates spoken word count (50\% vs. BNC's 10\%)
+            \vspace{5pt}
+        \item Spoken conversations are overrepresented in the BNC (20\% vs. BNC's 40\%)
+            \vspace{5pt}
+        \item Various categories are `missing' from the BNC
+            % {\tiny product labels, music lyrics}
+            
+
+        % \item Digital documents require significant post-processing to remove unread content
+        %     % markup, or simply bits I don't read of web pages
+        %     % most terminal output is unread
+        %     % I'm not *always* reading web chat
+        % \item Audio needs to be annotated for genre, particpant count, etc. or transcribed
+        % \item Pictures require transcription
+        % \item Notebook metadata needs tabulating (and, in many cases, completing)
+        % \item Web logs need downloading, post-processing
+    \end{itemize}
+\note{}
+}
+
+
+
+
 % Check prelim report
 % \frame{\frametitle{Findings --- Linguistic}
 % I read a very eclectic mix of things, including:
@@ -1399,16 +1428,34 @@ And an online log, which contains more detail:
 % 
 
 
+
 \frame{\frametitle{Findings --- Methodological}
-Proper annotation requires a fair amount of neurolinguistic knowledge:
+    \begin{itemize}
+        \item Small interactions are hardest to sample
             \vspace{10pt}
+        \item Attention models are important (442 word median difference, 5m extra words)
+            \vspace{10pt}
+        \item Significant manual input still required for many data sources
+            \vspace{10pt}
+        \item Audio processing is not good enough yet
+    \end{itemize}
+    \note{}
+}
+
+
+
+
+
+\frame{\frametitle{Findings --- Questions}
+    Proper annotation requires a fair amount of procedural knowledge:
+    \vspace{10pt}
     \begin{itemize}
         \item How often does one read a document when writing it?
         \item How deliberately must one read something for it to `count'?
         \item What's the best method of recording multiple parallel activities?
         \item What of programming languages, music, numeric and symbolic information, maps, etc.?
     \end{itemize}
-\note{}
+    \note{}
 }
 
 
@@ -1439,17 +1486,37 @@ Covert research is always ethically suspect, however:
 \section*{Summary}
 \frame{\frametitle{Summary}
     \begin{itemize}
-        \item Three preliminary tests complete
-        \item Sampling methods need refinement, but show promise
-        \item %TODO: similarity to BNC
+        \item Preliminary tests indicate some validity
+            \vspace{5pt}
+        \item Results from the BNC don't apply to me very well
+            \vspace{5pt}
         \item Verbatim text is hard to get, proportions/genres less so
+            \vspace{5pt}
         \item Though a single-person sample is useful, multiple people could augment data using questionnaires and data mining
-        
-        \vspace{10pt}
+
+            \vspace{10pt}
         \item My data generalise only to those similar to me!
     \end{itemize}
-\note{}
+    \note{}
 }
+
+
+
+\frame{\frametitle{Further Work}
+    \begin{itemize}
+        \item Inter-person variance should be identified
+            \vspace{10pt}
+        \item Further technical additions to tools
+            \vspace{10pt}
+        \item Automated voice activity detection
+            \vspace{10pt}
+        \item Better understanding of human attention/interest
+            \vspace{10pt}
+
+    \end{itemize}
+    \note{}
+}
+
 
 
 \appendix
@@ -1459,28 +1526,18 @@ Covert research is always ethically suspect, however:
 \section{Variables}
 
 % Which variables are collected
-\frame{\frametitle{Collected Variables}
-    Variables for capture in daily log: 
+\frame{\frametitle{Variables}
     \begin{itemize}
-        \item Genre/Type (free coded)
-        \item Age
-        \item Author
+        \item Source
         \item Title
-        \item Setting
+        \item Medium, Genre (free coded)
+        \item Age of document at time of use
+        \item Author type (As in Lee's BNC index)
+        \item Word count or duration
+        \item Spoken/written/interactive
+        \item Proportion `used'
+        \item Circulation size 
         \item Notes (i.e. times read, any notable properties of context and/or consumption)
-    \end{itemize}
-\note{}
-}
-\frame{\frametitle{Annotated Variables}
-    Variables for annotation in final corpus
-    \begin{itemize}
-        \item Authorship
-        \item Size of intended readership
-        \item Text status (new, revised etc)
-        \item Language
-        \item Author gender
-        \item Factuality
-        \item Famliarity with intended readership
     \end{itemize}
 \note{}
 }
@@ -1491,7 +1548,7 @@ Covert research is always ethically suspect, however:
 
 
 % =============================================================================
-\section{Data Sources}
+% \section{Data Sources}
 
 
 
