@@ -42,13 +42,13 @@ grout('cbyday')
 
 # Plot the plot of doom
 barplot(daysums.composite, 
-        col     = c('darkblue', 'red'),
+        col     = c('darkblue', 'lightblue'),
         names   = seq(5,19),
         main    = paste("Word count by day (m=", round(mean(na.omit(daysums))), ", sd=", round(sd(na.omit(daysums))), ")", sep=''),
         xlab    = "day",
         ylab    = "words"
         )
-legend("topleft", c("Spoken", "Written"), text.col=c('darkblue', 'red'), box.col='white')
+legend("topleft", c("Spoken", "Written"), text.col=c('darkblue', 'lightblue'), box.lwd=0, lty=F, bty='n', border=F)
 
 # Close device
 groff();
@@ -93,7 +93,7 @@ barplot(daysums.composite,
 legend("topleft", 
        c("Interactive", "Consumed", "Produced"), 
        text.col=c('darkblue', 'blue', 'lightblue'), 
-       box.col='white')
+       box.lwd=0, lty=F, bty='n', border=F)
 
 # Close device
 groff();
