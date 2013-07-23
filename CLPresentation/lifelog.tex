@@ -1,5 +1,5 @@
 
-\documentclass[xcolor=x11names,compress]{beamer}
+\documentclass[xcolor=x11names,compress,handout]{beamer}
 
 
 \usetheme[draft,num]{SmartSerif}
@@ -403,8 +403,22 @@ And an online log, which contains more detail:
 
 \frame{\frametitle{Audio Recording}
 
-\begin{center}\includegraphics[width=4cm]{dictaphone}\end{center}
-    
+    \begin{center}
+        \begin{figure}
+            \centering
+            \begin{subfigure}[b]{4cm}
+                \centering
+                \includegraphics[width=\textwidth]{dictaphone}
+            \end{subfigure}%
+            ~ %add desired spacing between images, e. g. ~, \quad, \qquad etc.
+            %(or a blank line to force the subfigure onto a new line)
+            \begin{subfigure}[b]{0.35\textwidth}
+                \centering
+                \includegraphics[width=\textwidth]{clicked}
+            \end{subfigure}
+        \end{figure}
+    \end{center}
+
     \begin{itemize}
         \item Allows capture of small-scale speech events
         \item Difficult to process post-hoc without index markers, but realtime annotation is harder
@@ -1024,8 +1038,10 @@ And an online log, which contains more detail:
 
 
 
+                \vspace{5pt}
             \item 68 genres with over 5 events $\rightarrow$
-            \item Thick tail indicates minimum functional length
+                \vspace{5pt}
+            \item Thick tail indicates minimum functional length $\approx 5$ words
         \end{itemize}
 
         \begin{figure}
